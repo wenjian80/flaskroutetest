@@ -22,10 +22,10 @@ spec:
               name: hello-flask2
               port:
                 number: 5002
-        - path: /
+        - path: /a
           pathType: Prefix
           backend:
             service:
-              name: hello-flask3
+              name: hello-flask2
               port:
                 number: 5003
