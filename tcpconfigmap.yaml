@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: tcp-services
+  namespace: ingress-nginx
+data:
+  5001: "default/hello-flask1:5001"
+  5002: "default/hello-flask2:5002"
+  5003: "default/hello-flask3:5003"
