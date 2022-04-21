@@ -26,6 +26,6 @@ spec:
           pathType: Prefix
           backend:
             service:
-              name: hello-flask2
+              name: hello-flask3
               port:
                 number: 5003
